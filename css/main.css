@@ -1,0 +1,328 @@
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/DMSans18pt-Bold.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/DMSans18pt-Medium.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/DMSans18pt-Regular.woff2') format('woff2'),
+        url('../fonts/DMSans18pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+.container {
+    width: 1520px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Poppins' , sans-serif;
+    background-color: white;
+}
+.site-header {
+    padding-top: 31px;
+}
+.site-logo {
+    vertical-align: middle;
+    margin-left: 176px;
+}
+.site-logo-continuation {
+    margin-right: 291px;
+    vertical-align: middle;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.78px;
+    color: #000000;
+}
+.header-list {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 235px;
+}
+.header-item {
+    display: inline-block;
+    margin-left: 55px;
+}
+.remove-margin {
+    margin-left: 0;
+}
+.header-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #170C04;   
+}
+.header-btn {
+    padding: 3px 0;
+    margin-right: 40px;
+    border-radius: 4px;
+}
+.remove-margin-btn {
+    margin-right: 0;
+}
+.button-img{
+    margin-top: 3px;
+    text-align: center;
+}
+.hero-section {
+    padding-bottom: 130px;
+}
+.hero-content-wrapper {
+    margin-left: 180px;
+    margin-top: 148px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.hero-title {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 120px;
+    color: #170C04;
+    
+}
+.hero-btn-down1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    margin-right: 20px;
+    margin-top: 100px;
+    background-color: #E27B3A;
+    border-radius: 24px;
+    border: none;   
+}
+.hero-btn-down2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 24px;
+    padding: 12px 30px;
+    color: #E27B3A;
+    margin-top: 119px;
+    border: none;
+}
+.hero-img {
+    vertical-align: middle;
+    display: inline-block;
+}
+.foods-section {
+    padding-bottom: 113px;
+}
+.foods-list {
+    margin-left: 180px;
+}
+.foods-item {
+    width: 360px;
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+.foods-img-wrapper {
+    margin-bottom: 40px;
+}
+.foods-img {
+    margin: 0 auto;
+    margin-top: -50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: aqua;
+}
+.foods-title {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 37.5px;
+    text-align: center;
+    color: #170C04;   
+}
+.foods-text {
+    margin-bottom: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #170C04;
+    
+}
+.foods-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #E27B3A;
+}
+.foods-link-wrapper {
+    margin-bottom: 18px;
+}
+.product-section {
+    padding-bottom: 58px;
+}
+.product-title {
+    font-size: 32.25px;
+    font-weight: 500;
+    line-height: 48.38px;
+    text-align: center;
+    color: #170C04;
+    margin-bottom: 18px;
+}
+.product-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #170C04;
+    padding-bottom: 25px;
+}
+.product-list {
+    margin-left: 182px;
+}
+.product-item {
+    width: 555px;
+    height: 420px;
+    vertical-align: middle;
+    margin-right: 30px;
+    display: inline-block;
+    background-color: #FCF2EB;
+    text-align: center;
+    border-radius: 20px;
+}
+.product-img {
+    margin-top: 80px;
+}
+.product-text-wrapper {
+    margin-top: 75px;
+}
+.product-subtitle {
+    margin-bottom: 9px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37.5px;
+    color: #170C04;
+    
+}
+.product-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #E27B3A;
+}
+.product-list2 {
+    margin-left: 182px;
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+.product-item2 {
+    width: 360px;
+    height: 273px;
+    vertical-align: middle;
+    margin-right: 30px;
+    display: inline-block;
+    background-color: #FCF2EB;
+    text-align: center;
+    border-radius: 10px;
+}
+.product-sub-images {
+    margin-top: 65px;
+}
+.remove-img {
+    margin-top: 0;
+}
+.product-text-wrapper2 {
+    margin-top: 100px;
+}
+.active-bg {
+    margin-top: 0;
+}
+.active-bgh {
+    margin-top: -50px;
+}
+.product-subtitle2 {
+    margin-top: 50px;
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #170C04;
+}
+.product-link2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #E27B3A;
+}
+.product-btn {
+    width: 185px;
+    height: 48px;
+    margin: 0 659px;
+    color: #E27B3A;
+    border-radius: 4px;
+    border: #E27B3A;
+}
+    .dog-care-section {
+        margin: 0 auto;
+        text-align: left;
+    }
+    .dog-care-section-name{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        letter-spacing: 0.2em;
+        text-align: left;
+        color: #E27B3A; 
+    }
+    .dog-care-section-img {
+        display: inline-block;
+    }
+    .dog-care-section-item {
+        margin-top:px;
+        width: 474px;
+        display: inline-block;
+    }
+    .dog-care-section-title {
+        font-size: 32.25px;
+        font-weight: 400;
+        line-height: 45.15px;
+        margin-bottom: 18px;
+    }
+    .dog-care-section-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .dog-care-btn1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        background: #E27B3A;
+    }
+    .dog-care-btn2 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        background: white;
+    }
